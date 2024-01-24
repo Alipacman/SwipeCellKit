@@ -131,6 +131,10 @@ class SwipeActionsView: UIView {
         }
     #endif
         
+
+
+        backgroundColor = .clear // ADDED
+
         buttons = addButtons(for: self.actions, withMaximum: maxSize, contentEdgeInsets: contentEdgeInsets)
     }
     
